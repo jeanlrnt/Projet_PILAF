@@ -16,9 +16,12 @@ Projet dans le cadre de la matière gestion de projet (M2204)
 
 ## Modifier/Ajouter des trucs
 
-* Première étape : écrit $ `git pull origin master` dans le GitBash.  
+* Première étape : écrit dans le GitBash.
+  * $ `git pull origin master`   
 * Deuxième étape : tu fais tes modifs en local tranquillou. ET TU SAUVEGARDE.
-* Troisième étape : écrit $ `git commit -a -m "Ajout/Modif Nom du fichier"`
-* Quatrième étape : écrit $ `git push -u origin master`
+* Troisième étape : 
+  * $ `git commit -a -m "Ajout/Modif Nom du fichier"`
+* Quatrième étape : 
+  * $ `git push -u origin master`
 
 VOILA PLUS D'EXCUSES
