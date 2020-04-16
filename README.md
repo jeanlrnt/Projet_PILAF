@@ -19,8 +19,9 @@ Projet dans le cadre de la matière gestion de projet (M2204)
 * Première étape : écrit dans le GitBash.
   * $ `git pull origin master`   
 * Deuxième étape : tu fais tes modifs en local tranquillou. ET TU SAUVEGARDE.
-* Troisième étape : 
-  * $ `git commit -a -m "Ajout/Modif Nom du fichier"`
+* Troisième étape :
+  * $ `git add *`
+  * $ `git commit -m "Ajout/Modif Nom du fichier"`
 * Quatrième étape : 
   * $ `git push -u origin master`
 
