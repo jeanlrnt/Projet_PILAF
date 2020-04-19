@@ -1,5 +1,5 @@
-Code 001 : Erreur de chargement des élèments de la page
-Code 002 : Erreur de chargement de la Base de Données
-Code 003 : Erreur de chargement des horaires (uniquement possible du côté secrétariat) 
+Code 001 : Erreur de chargement des Ã©lÃ¨ments de la page
+Code 002 : Erreur de chargement de la Base de DonnÃ©es
+Code 003 : Erreur de chargement des horaires (uniquement possible du cÃ´tÃ© secrÃ©tariat) 
 Code 004 : Connexion au serveur impossible
-A continuer s'il y a des idées
+
