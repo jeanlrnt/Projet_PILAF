@@ -21,7 +21,7 @@ Projet dans le cadre de la matière gestion de projet (M2204)
 * Deuxième étape : tu fais tes modifs en local tranquillou. ET TU SAUVEGARDE.
 * Troisième étape :
   * $ `git add *`
-  * $ `git commit -m "Ajout/Modif Nom du fichier"`
+  * $ `git commit -am "Ajout/Modif Nom du fichier"`
 * Quatrième étape : 
   * $ `git push -u origin master`
 
