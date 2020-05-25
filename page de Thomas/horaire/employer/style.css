@@ -191,12 +191,14 @@ h4 {
 		display: block;
 	}
 	.retour {
-		margin: 0px;
-		margin-left: calc(50% - 360px);
+		margin-left: 60px;
 	}
 	h1 {
-		margin: 30px auto;
-		margin-right: calc(50% - 320px);
+		font-size: 30px;
+		margin-top: 40px;
+		margin-left: 0px;
+		margin-right: 60px;
+		width: calc(100% - 200px);
 	}
 	.cadre, .validation {
 		align-items: center;
@@ -261,5 +263,8 @@ h4 {
 		height: 50px;
 		width: 150px;
 		margin-top: 25px;
+	}
+	.info {
+		font-size: 30px;
 	}
 }

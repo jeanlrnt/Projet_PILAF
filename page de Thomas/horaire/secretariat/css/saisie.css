@@ -1,0 +1,290 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/******************************************* *******************************************/
+.cadre, h2, div{
+	width: 100%;
+	text-align: center;
+}
+body {
+	margin: 10px;
+	width: calc(100% - 20px);
+	border: 2px black solid;
+}
+.cadre, .validation {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}
+.retour {
+	margin-top: 35px;
+}
+h1 {
+	margin-top: 40px;
+	font-size: 50px;
+	font-weight: bold;
+	width: 620px;
+}
+h2, p {
+	font-size: 40px;
+	font-weight: bold;
+}
+h3 {
+	width: 50%;
+	border: 4px dashed black;
+	margin: 60px 25%;
+}
+p {
+	margin-top: 40px;
+	font-size: 70px;
+}
+.titre {
+	display: none;
+}
+input, select {
+	border: 4px black solid;
+	text-align: center;
+	font-size: 40px;
+	height: 80px;
+	margin: 40px 30px;
+}
+select {
+	background-image: url('../images/select.png');
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-size: 80px;
+	-webkit-appearance: none;
+	padding: 0px 80px;
+	font-size: 26px;
+}
+select:hover {
+	background-image: url('../images/select2.png');
+}
+input:invalid {
+	border: 4px red solid;
+}
+.dateMobile {
+	background-image: url('../images/calendar.jpg');
+	background-position: center right 20px;
+	background-repeat: no-repeat;
+	background-size: 70px;
+	width: 80%;
+}
+.salarie {
+	width: 80%;
+	margin-bottom: 60px;
+}
+.heure {
+	width: 140px;
+}
+.bouton {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+img {
+	width: 60px;
+}
+img:hover {
+	width: 50px;
+	margin: 5px;
+}
+a {
+	width: 60px;
+	height: 60px;
+	border: none;
+	cursor: pointer;
+}
+h4 {
+	margin: 0px;
+	margin-left: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.buttonMoins {
+	display: none;
+}
+.cadre h2:nth-child(n+16), input:nth-child(n+16), p:nth-child(n+16), h3:nth-child(n+17){
+	display: none;
+}
+.cadre div {
+	margin-top: 50px;
+}
+.buttonPlus {
+	display: block;
+}
+#horaire:target .buttonMoins, #horaire:target h2, #horaire:target input, #horaire:target p, #horaire:target h3 {
+	display: block;
+}
+#horaire:target .buttonPlus, #horaire:target .titre, #horaire:target .dateOrdinateur {
+	display: none;
+}
+.validation {
+	margin-top: 80px;
+}
+.validation span {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.validation input[type="button"] {
+	background-color: #0b8527;
+	border: none;
+	color: white;
+	height: 90px;
+	width: 200px;
+	cursor: pointer;
+}
+.validation input[type="button"]:hover {
+	height: 80px;
+	width: 190px;
+	margin-top: 45px;
+}
+.dateOrdinateur {
+	display: none;
+}
+.info {
+	border: none;
+	font-size: 40px;
+	font-weight: bold;
+	color: red;
+}
+@media screen and (min-width: 981px) {
+	body {
+		width: 970px;
+		display: block;
+		margin: 10px auto;
+	}
+	#horaire:target .dateMobile, .dateMobile{
+		display: none;
+	}
+	#horaire:target .dateOrdinateur, .dateOrdinateur, #horaire:target .titre, .titre{
+		display: block;
+	}
+	.retour {
+		margin-left: 60px;
+	}
+	h1 {
+		font-size: 30px;
+		margin-top: 40px;
+		margin-left: 0px;
+		margin-right: 60px;
+		width: calc(100% - 200px);
+	}
+	.cadre, .validation {
+		align-items: center;
+	}
+	.titre, .dateOrdinateur, .salarie, p{
+		margin: auto 0px;
+	}
+	.titre {
+		font-size: 30px;
+		font-weight: lighter;
+		margin: auto 20px;
+	}
+	input, select{
+		font-size: 20px;
+		height: 30px;
+		border: 2px black solid;
+	}
+	input[type=date]{
+		background-position: center right 16px;
+	}
+	select {
+		background-size: 36px;
+		padding: 0px 80px;
+		height: 36px;
+	}
+	input:invalid {
+		border: 2px red solid;
+	}
+	.dateOrdinateur {
+		background-image: url('../images/calendar.jpg');
+		background-position: center right 5px;
+		background-repeat: no-repeat;
+		background-size: 25px;
+		width: 200px;
+		margin-right: calc(50% - 480px);
+	}
+	.cadre p:first-of-type {
+		padding-left: calc(50% - 530px);
+	}
+	.salarie {
+		width: 460px;
+	}
+	.heure {
+		height: 70px;
+		width: 70px;
+		font-size: 40px;
+	}
+	h2 {
+		width: 90px;
+		font-size: 35px;
+	}
+	.bouton {
+		margin-left: 20px;
+		display: flex;
+		justify-content: flex-start;
+	}
+	.bouton a {
+		margin-left: calc(50% - 480px);
+	}
+	.validation p {
+		margin-left: 0px;
+	}
+	.validation input[type="button"] {
+		height: 60px;
+		width: 160px;
+		margin: 20px 0px;
+		margin-left: 600px;
+	}
+	.validation input[type="button"]:hover {
+		height: 50px;
+		width: 150px;
+		margin-top: 25px;
+	}
+	.info {
+		font-size: 30px;
+	}
+}
