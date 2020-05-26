@@ -52,71 +52,58 @@ body {
 	width: calc(100% - 20px);
 	border: 2px black solid;
 }
-.cadre{
+.cadre {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: center;
-}
-.retour {
-	margin-top: 35px;
+	padding-top: 20px;
 }
 h1 {
-	margin-top: 40px;
-	font-size: 50px;
+	font-size: 34px;
 	font-weight: bold;
-	width: 620px;
+	margin-top: 12px;
 }
-img {
+.retour img {
 	width: 60px;
 }
-img:hover {
+.retour img:hover {
 	width: 50px;
 	margin: 5px;
 }
-a {
+.retour {
 	width: 60px;
 	height: 60px;
 	border: none;
 	cursor: pointer;
 }
-input {
-	border: 4px black solid;
-	text-align: center;
-	font-size: 40px;
-	height: 80px;
-	margin: 40px 30px;
+label {
+	border: 3px solid black;
+	cursor: pointer;
+	width: 150px;
+	height: 200px;
+	margin-bottom: 20px;
 }
-.date {
-	background-image: url('../images/calendar.jpg');
-	background-position: center right 20px;
-	background-repeat: no-repeat;
-	background-size: 70px;
-	width: 80%;
+.line1 {
+	margin-top: 99px;
+	margin-left: -52px;
+	width: 251px;
+	border: 1.5px solid black;
+	-webkit-transform: rotate(53.2deg);
 }
-table {
-	width: 90%;
-	border: 2px solid black;
-	margin-bottom: 40px;
+.line2 {
+	margin-left: -51px;
+	margin-top: -3px;
+	width: 250px;
+	border: 1.5px solid black;
+	-webkit-transform: rotate(-53.2deg);
 }
-td, th {
-	border: 2px dashed black;
-	border-collapse: collapse;
-	vertical-align: middle;
-}
-th {
-	padding: 10px;
-	font-weight: bold;
-}
-td img {
-	width: 40px;
-	margin: 0px 0px;
-}
-td img:hover {
-	width: 30px;
-	margin: 7px 0px;
-}
-p {
+input[type=file] {
 	display: none;
+}
+.txtLogo {
+	margin-top: 70px;
+	font-size: 20px;
+	font-weight:bold;
 }
 @media screen and (min-width: 981px) {
 	body {
@@ -124,32 +111,20 @@ p {
 		display: block;
 		margin: 10px auto;
 	}
+	.cadre {
+		align-items: center;
+		padding-top: 0px;
+	}
 	.retour {
-		margin-left: 60px;
+		margin-left: 70px;
+		margin-right: 20px;
+		margin-top: 38px;
 	}
 	h1 {
-		font-size: 30px;
-		margin-top: 50px;
+		font-size: 28px;
+		margin-top: 40px;
 		margin-left: 0px;
 		margin-right: 60px;
-		width: calc(100% - 200px);
-	}
-	.date {
-		background-position: center right 16px;
-		background-size: 25px;
-		width: 200px;
-		margin-right: calc(50% - 480px);
-	}
-	input{
-		font-size: 20px;
-		height: 30px;
-		border: 2px black solid;
-		margin-left: 10px;
-	}
-	p {
-		display: block;
-		margin-top: 47px;
-		font-size: 20px;
-		width: 50px;
+		width: calc(100% - 400px);
 	}
 }

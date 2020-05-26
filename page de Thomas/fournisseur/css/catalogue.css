@@ -52,71 +52,95 @@ body {
 	width: calc(100% - 20px);
 	border: 2px black solid;
 }
-.cadre{
+.cadre {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: center;
-}
-.retour {
-	margin-top: 35px;
+	padding-top: 20px;
 }
 h1 {
-	margin-top: 40px;
-	font-size: 50px;
+	font-size: 34px;
 	font-weight: bold;
-	width: 620px;
+	margin-top: 12px;
 }
-img {
+.retour img {
 	width: 60px;
 }
-img:hover {
+.retour img:hover {
 	width: 50px;
 	margin: 5px;
 }
-a {
+.retour {
 	width: 60px;
 	height: 60px;
 	border: none;
 	cursor: pointer;
 }
-input {
-	border: 4px black solid;
-	text-align: center;
-	font-size: 40px;
-	height: 80px;
-	margin: 40px 30px;
+img {
+	width: 30px;
+	margin-bottom: 2px;
+	vertical-align: middle;
+	margin-right: 10px;
 }
-.date {
-	background-image: url('../images/calendar.jpg');
-	background-position: center right 20px;
-	background-repeat: no-repeat;
-	background-size: 70px;
-	width: 80%;
+.bouton {
+	text-decoration: none;
+	color: black;
+	padding: 6px;
+	padding-top: 8px;
+	padding-right: 15px;
+	border: 2px solid black;
+	height: 30px;
+	margin: 15px 50px;
+}
+.bouton:hover {
+	color: white;
+	background-color: black;
+}
+.bouton:hover img {
+	filter: invert(100%);
 }
 table {
 	width: 90%;
-	border: 2px solid black;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
+	border-collapse: separate;
+	border-spacing : 0px 20px;
 }
 td, th {
-	border: 2px dashed black;
-	border-collapse: collapse;
+	border: 2px solid black;
+	border-right: none;
+	border-left: none;
+	padding: 20px;
 	vertical-align: middle;
 }
+td:nth-child(4n+1) {
+	border-left: 2px solid black;
+}
+td:nth-child(4n+4) {
+	border-right: 2px solid black;
+}
 th {
-	padding: 10px;
 	font-weight: bold;
 }
-td img {
-	width: 40px;
-	margin: 0px 0px;
+tr:first-child {
+	background-color: #bababa;
 }
-td img:hover {
-	width: 30px;
-	margin: 7px 0px;
+.next {
+	width: calc(100% - 20px);
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: right;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
 }
-p {
-	display: none;
+.next img {
+	margin-left: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+.next:hover {
+	opacity: 0.5;
 }
 @media screen and (min-width: 981px) {
 	body {
@@ -124,32 +148,20 @@ p {
 		display: block;
 		margin: 10px auto;
 	}
+	.cadre {
+		align-items: center;
+		padding-top: 0px;
+	}
 	.retour {
-		margin-left: 60px;
+		margin-left: 70px;
+		margin-right: 20px;
+		margin-top: 38px;
 	}
 	h1 {
-		font-size: 30px;
-		margin-top: 50px;
+		font-size: 28px;
+		margin-top: 40px;
 		margin-left: 0px;
 		margin-right: 60px;
-		width: calc(100% - 200px);
-	}
-	.date {
-		background-position: center right 16px;
-		background-size: 25px;
-		width: 200px;
-		margin-right: calc(50% - 480px);
-	}
-	input{
-		font-size: 20px;
-		height: 30px;
-		border: 2px black solid;
-		margin-left: 10px;
-	}
-	p {
-		display: block;
-		margin-top: 47px;
-		font-size: 20px;
-		width: 50px;
+		width: calc(100% - 400px);
 	}
 }
