@@ -7,10 +7,10 @@
   </head>
   <body>
     <section class="cadre" id="horaire">
-      <a class="retour" href="http://thomas-marty.fr/"><img src="./images/retour.png" alt="retour"></a>
+      <a class="retour" href="../../index.html"><img src="./images/retour.png" alt="retour"></a>
       <h1>Enregistrement des horaires</h1>
       <p class="titre">Salarie : </p>
-      <input type="date" class="dateMobile">
+      <input type="date" class="dateMobile" id="dateMobile" name="dateMobile" value="2020-06-03">
       <select class="salarie" name="salarie">
         <option value="">Choisissez un employé</option>
         <option value="salarie1">M. Patrick Billet / Cadre commercial</option>
@@ -18,7 +18,7 @@
         <option value="salarie3">M. Patrick Billet / Cadre commercial</option>
       </select>
       <p class="titre">Date : </p>
-      <input type="date" class="dateOrdinateur">
+      <input type="date" class="dateOrdinateur" id="dateOrdinateur" name="dateOrdinateur" value="2020-06-03">
       <h2 class="txtHeure">Début</h2>
       <input type="text" class="heure" pattern="[0-9]{0,2}"><p>:</p><input type="text" class="heure" pattern="[0-9]{2}">
       <h2>Fin</h2>

@@ -1,0 +1,297 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/******************************************* *******************************************/
+section {
+	width: 100%;
+	text-align: center;
+}
+body {
+	margin: 10px;
+	width: calc(100% - 20px);
+	border: 2px black solid;
+}
+section {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	padding-top: 20px;
+}
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+	width: calc(100% - 200px);
+	min-width: 360px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.haut {
+	align-items: center;
+	width: 100%;
+}
+.haut span {
+	width: calc(100% - 260px);
+	max-width: 400px;
+	height: 140px;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+	text-align: left;
+}
+.haut span p {
+	width: 80px;
+	height: 20px;
+	margin-left: 5%;
+	margin-top: 2.5px;
+}
+.haut input {
+	width: calc(100% - 120px);
+	min-width: 130px;
+	max-width: 270px;
+	height: 20px;
+}
+.retour img {
+	width: 60px;
+}
+.retour img:hover {
+	width: 50px;
+	margin: 5px;
+}
+.retour {
+	width: 60px;
+	height: 60px;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	width: 95%;
+	margin-left: 5%;
+	text-align: left;
+}
+.coordonnees, .localisation, .banque, .contact {
+	width: 100%;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: flex-start;
+}
+.coordonnees span {
+	margin-left: 5%;
+	margin-right: 30px;
+	width: 40%;
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.coordonnees span p {
+	min-width: 100px;
+	max-width: 100px;
+	padding: 0px;
+	text-align: left;
+}
+.coordonnees span input {
+	width: 180px;
+	height: 18px;
+	padding: 0px;
+}
+.localisation span, .banque span, .contact span {
+	margin-left: 5%;
+	width: 100%;
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.contact span {
+	justify-content: flex-start;
+}
+.localisation span p, .banque span p, .contact span p {
+	width: 100px;
+	padding: 0px;
+	text-align: left;
+}
+.contact span p {
+	width: 60px;
+}
+.contact span input {
+	width: calc(50% - 80px);
+	max-width: 240px;
+	margin-right: 20px;
+}
+.banque span p {
+	width: 160px;
+}
+.banque span input {
+	width: calc(50% - 160px);
+}
+.localisation span input, .banque span input {
+	width: calc(50% - 100px);
+}
+.ligne p {
+	min-width: 90px;
+}
+.commentaires textarea {
+	width: 80%;
+	height: 100px;
+	margin-bottom: 20px;
+}
+.commentaires span {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.commentaires span a {
+	text-decoration: none;
+	color: black;
+	border: 4px solid green;
+	padding: 4px 20px;
+}
+.commentaires span a:hover {
+	border: none;
+	color: white;
+	background-color: green;
+}
+/************************************** Logo **************************************/
+label {
+	text-align: center;
+	border: 3px solid black;
+	cursor: pointer;
+	width: 150px;
+	height: 200px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+.line1 {
+	margin-top: 99px;
+	margin-left: -52px;
+	width: 251px;
+	border: 1.5px solid black;
+	-webkit-transform: rotate(53.2deg);
+}
+.line2 {
+	margin-left: -51px;
+	margin-top: -3px;
+	width: 250px;
+	border: 1.5px solid black;
+	-webkit-transform: rotate(-53.2deg);
+}
+input[type=file] {
+	display: none;
+}
+.txtLogo {
+	margin-top: 70px;
+	font-size: 20px;
+	font-weight:bold;
+}
+@media screen and (min-width: 981px) {
+	body {
+		width: 970px;
+		margin: 10px auto;
+		display: flex;
+		flex-flow: wrap;
+	}
+	a {
+		margin: 0px;
+		padding: 0px;
+	}
+	.haut {
+		width: 100%;
+		padding-top: 0px;
+		text-align: right;
+	}
+	.retour {
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 38px;
+	}
+	.haut h1 {
+		font-size: 40px;
+		margin-top: 40px;
+		margin-left: 0px;
+		margin-right: 0px;
+		width: calc(100% - 200px);
+	}
+	h2 {
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	p {
+		font-size: 24px;
+	}
+	.coordonnees span {
+		width: 300px;
+	}
+	.coordonnees span p {
+		min-width: 120px;
+	}
+	.localisation span p {
+		width: 130px;
+	}
+	.haut span p {
+		width: 100px;
+	}
+	.haut span input {
+		margin-top: 4px;
+	}
+	.contact span p {
+		width: 80px;
+	}
+	.contact span input:nth-child(3n+2) {
+		margin-right: 90px;
+	}
+	.banque span p {
+		width: 200px;
+	}
+	.coordonnees span, .localisation span, .banque span, .contact span {
+		margin-left: 100px;
+	}
+	.ligne p {
+		min-width: 140px;
+	}
+	.ligne input {
+		min-width: 320px;
+	}
+	input, .coordonnees span input {
+		height: 22px;
+	}
+}
