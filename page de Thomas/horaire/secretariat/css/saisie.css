@@ -110,7 +110,7 @@ input:invalid {
 	border: 4px red solid;
 }
 .dateMobile {
-	background-image: url('../images/calendar.jpg');
+	background-image: url('../images/calendar.png');
 	background-position: center right 20px;
 	background-repeat: no-repeat;
 	background-size: 70px;
@@ -245,7 +245,7 @@ h4 {
 		border: 2px red solid;
 	}
 	.dateOrdinateur {
-		background-image: url('../images/calendar.jpg');
+		background-image: url('../images/calendar.png');
 		background-position: center right 5px;
 		background-repeat: no-repeat;
 		background-size: 25px;
