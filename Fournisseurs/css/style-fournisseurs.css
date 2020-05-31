@@ -6,6 +6,15 @@
 	min-height: 9em
 }
 
+.titre .eight {
+	text-align: center;
+}
+
+.haut .titre a {
+	margin: 0;
+	padding: 0;
+}
+
 .logo {
 	text-align: center;
 	border: 3px solid black;
@@ -49,6 +58,10 @@ input[type=file] {
 	margin-top: 2em;
 }
 
+.commentaires .ten {
+	text-align: center;
+}
+
 .commentaires input {
 	color: black;
 	border: medium solid #498129;
@@ -81,6 +94,15 @@ img[class=next] {
 	margin-left: 2em;
 }
 
-td, th {
+td, th, .recherche, .boutons {
 	text-align: center;
+}
+
+.lblfournisseurs {
+	text-align: center;
+	padding: 1em;
+}
+
+.recherche input[type=search] {
+	width: 40%
 }

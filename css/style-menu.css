@@ -69,3 +69,7 @@ nav a:hover{
 .icone {
   height: 2.5em
 }
+
+.item1, .item2 {
+  margin-right: 3em;
+}
