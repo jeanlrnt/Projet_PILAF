@@ -29,6 +29,7 @@
 nav{
   width: 100%;
   border-top: solid transparent;
+  align-items: center;
 }
 
 nav ul{
@@ -61,7 +62,7 @@ nav a:hover{
   border-top: medium solid #ABBB33;
 }
 
-.logo {
+.logoimg {
   height: 3.5em
 }
 

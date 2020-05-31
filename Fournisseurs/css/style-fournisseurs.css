@@ -1,10 +1,3 @@
-.container {
-	border: 2px solid black;
-	padding-left: 3em;
-	padding-right: 2em;
-	padding-top: 2em;
-}
-
 .haut img{
 	width: 4em;
 }
@@ -47,7 +40,12 @@ input[type=file] {
 	font-weight:bold;
 }
 
-.coordonnees, .localisation, .contact, .banque, .commentaires, .haut .labels {
+.coordonnees, .localisation, .contact, .banque, .commentaires, .haut {
+	margin-top: 2em;
+	padding: 2em;
+}
+
+.haut .labels {
 	margin-top: 2em;
 }
 
@@ -85,4 +83,8 @@ img[class=next] {
 
 .catalogue  {
 	margin: 0 auto;
+}
+
+td, th {
+	text-align: center;
 }
