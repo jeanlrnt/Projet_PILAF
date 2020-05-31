@@ -40,7 +40,7 @@ input[type=file] {
 	font-weight:bold;
 }
 
-.coordonnees, .localisation, .contact, .banque, .commentaires, .haut {
+.catalogue, .coordonnees, .localisation, .contact, .banque, .commentaires, .haut {
 	margin-top: 2em;
 	padding: 2em;
 }
@@ -79,10 +79,6 @@ input[type=file] {
 img[class=next] {
 	width: 2em;
 	margin-left: 2em;
-}
-
-.catalogue  {
-	margin: 0 auto;
 }
 
 td, th {
