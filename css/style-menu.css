@@ -1,0 +1,70 @@
+.curved {
+  border-radius: 2em;
+}
+
+.centered {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.menu-item {
+  border: 2px solid black;
+  height: 15em;
+}
+
+.menu-item:hover {
+  border-color: #ABBB33;
+  color: #ABBB33;
+}
+
+.ligne {
+  margin: 2em
+}
+
+.chemin {
+  padding-left: 2em;
+  text-transform: uppercase;
+}
+
+nav{
+  width: 100%;
+  border-top: solid transparent;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav ul li{
+  float: left;
+  width: calc(14.2857143% - 1px);
+  text-align: center;
+}
+
+nav ul li:last-child{
+  border-right: medium solid black;
+}
+
+nav a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 1em 0em;
+  border: medium solid black;
+  border-right: none;
+  height: 4em;
+}
+
+nav a:hover{
+  color: #ABBB33;
+  border-bottom: medium solid #ABBB33;
+  border-top: medium solid #ABBB33;
+}
+
+.logo {
+  height: 3.5em
+}
+
+.icone {
+  height: 2.5em
+}

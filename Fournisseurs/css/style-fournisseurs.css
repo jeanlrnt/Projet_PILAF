@@ -1,0 +1,88 @@
+.container {
+	border: 2px solid black;
+	padding-left: 3em;
+	padding-right: 2em;
+	padding-top: 2em;
+}
+
+.haut img{
+	width: 4em;
+}
+
+.titre {
+	min-height: 9em
+}
+
+.logo {
+	text-align: center;
+	border: 3px solid black;
+	cursor: pointer;
+	width: 150px;
+	height: 200px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+.line1 {
+	margin-top: 99px;
+	margin-left: -52px;
+	width: 251px;
+	border: 1.5px solid black;
+	-webkit-transform: rotate(53.2deg);
+}
+.line2 {
+	margin-left: -51px;
+	margin-top: -3px;
+	width: 250px;
+	border: 1.5px solid black;
+	-webkit-transform: rotate(-53.2deg);
+}
+
+input[type=file] {
+	display: none;
+}
+
+.txtLogo {
+	margin-top: 70px;
+	font-size: 20px;
+	font-weight:bold;
+}
+
+.coordonnees, .localisation, .contact, .banque, .commentaires, .haut .labels {
+	margin-top: 2em;
+}
+
+.commentaires input {
+	color: black;
+	border: medium solid #498129;
+}
+
+.commentaires .button:hover {
+	background-color: #ABBB33;
+}
+
+.catalogue h1 {
+	text-align: center;
+}
+
+.catalogue img {
+	vertical-align: middle;
+	margin-right: 1em;
+	width: 4em;
+}
+
+.catalogue a[class=button] {
+	height: 6em;
+	width: 25em;
+	padding: 1em;
+	margin-left: 3em;
+	text-align: center;
+}
+
+img[class=next] {
+	width: 2em;
+	margin-left: 2em;
+}
+
+.catalogue  {
+	margin: 0 auto;
+}

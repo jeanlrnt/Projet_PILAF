@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="./css/style-fournisseurs.css">
+
+    <title>Afficher un fournisseur</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row haut">
+        <div class="titre">
+          <div class="two columns">
+            <a class="retour" href="index.html"><img src="./images/retour.png" alt="retour"></a>
+          </div>
+          <div class="eight columns">
+            <h1>Afficher un fournisseur</h1>
+          </div>
+          <div class="one column">
+            <span class="lienImage">
+              <a class="edit" title="modifier" href="./modifier.html"><img src="../images/edit.png" alt="edit"></a>
+              <a class="catalogue" title="catalogue" href="./catalogue.html"><img src="../images/catalogue.png" alt="catalogue"></a>
+            </span>
+          </div>
+        </div>
+        <div class="one-third column">
+          <label for="file" class="logo">
+            <input id="file" type="file" name="logo" value="logo">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <p class="txtLogo">Logo</p>
+          </label>
+        </div>
+        <div class="one-half column labels">
+          <label>Nom</label><input class="u-full-width" type="text" name="" value="ORANGE" readonly>
+          <label>Site Web</label><input class="u-full-width" type="text" name="" value="www.orange.fr" readonly>
+        </div>
+      </div>
+      <div class="row coordonnees">
+        <h2>Coordonnées</h2>
+        <div class="five columns">
+          <label>Téléphone</label><input class="u-full-width" type="tel" name="" value="0153534587" readonly>
+          <label>Mail</label><input class="u-full-width" type="email" name="" value="0153534587" readonly>
+        </div>
+        <div class="five columns">
+          <label>Fax</label><input class="u-full-width" type="text" name="" value="contact@orange.fr" readonly>
+          <label>N°SIREN</label><input class="u-full-width" type="text" name="" value="38012F9866" readonly>
+        </div>
+      </div>
+      <div class="row localisation">
+        <h2>Localisation</h2>
+        <div class="ten columns">
+          <label>Adresse</label><input class="u-full-width" type="text" name="" value="78 rue Olivier de Serres" readonly>
+          <label>Ville</label><input class="u-full-width" type="text" name="" value="Paris" readonly>
+          <label>Code Postal</label><input class="u-full-width" type="text" name="" value="75015" readonly>
+          <label>Pays</label><input class="u-full-width" type="text" name="" value="FRANCE" readonly>
+        </div>
+      </div>
+      <div class="row contact">
+        <h2>Contact interne</h2>
+        <div class="five columns">
+          <label>Nom</label><input class="u-full-width" type="text" name="" value="CROZIER" readonly>
+        </div>
+        <div class="five columns">
+          <label>Prénom</label><input class="u-full-width" type="text" name="" value="Sébastien" readonly>
+        </div>
+        <div class="ten columns">
+          <label>Fonction</label><input class="u-full-width" type="text" name="" value="Commercial Nouvelle-Aquitaine" readonly>
+        </div>
+      </div>
+      <div class="row banque">
+        <h2>Banque</h2>
+        <div class="ten columns">
+          <label>Titulaire du compte</label><input class="u-full-width" type="text" name="" value="ORANGE" readonly>
+          <label>Nom de la Banque</label><input class="u-full-width" type="text" name="" value="CIC" readonly>
+          <label>IBAN</label><input class="u-full-width" type="text" name="" value="FR46 1234 5678 9123 4567 8912 789" readonly>
+          <label>BIC</label><input class="u-full-width" type="text" name="" value="1024 01 87" readonly>
+        </div>
+      </div>
+      <div class="row commentaires">
+        <h2>Commentaires</h2>
+        <div class="ten columns">
+          <textarea name="text" class="u-full-width" readonly>Ce fournisseur est une filiale de Danone France, ils commercialisent entre autre la marque "Les 2 Vaches" ainsi que "Danone BIO".</textarea>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
