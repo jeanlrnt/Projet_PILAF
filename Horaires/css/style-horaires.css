@@ -2,6 +2,10 @@
   width: 4em;
 }
 
+.saisie, .liste {
+  padding: 0em 2em;
+}
+
 td, th {
   text-align: center;
 }
@@ -12,7 +16,7 @@ td, th {
   vertical-align: middle;
 }
 
-.haut, .liste table, .saisieheure, .validation {
+.liste table, .saisieheure, .validation {
   margin-top: 2em;
 }
 

@@ -50,8 +50,8 @@ input[type=file] {
 }
 
 .catalogue, .coordonnees, .localisation, .contact, .banque, .commentaires, .haut {
-	margin-top: 2em;
-	padding: 2em;
+	padding-top: 2em;
+	padding: 0em 2em;
 }
 
 .haut .labels {
@@ -78,6 +78,10 @@ input[type=file] {
 	padding: 1em;
 	margin-left: 3em;
 	text-align: center;
+}
+
+.catalogue .centre {
+	margin: 2em 0em
 }
 
 img[class=next] {
