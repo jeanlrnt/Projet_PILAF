@@ -36,8 +36,8 @@ img[class=date] {
 }
 
 .saisie input[type=text] {
-  width: 4em;
-  height: 4em;
+  width: 3em;
+  height: 3em;
 }
 
 .saisie input[class=nom] {
@@ -54,4 +54,16 @@ img[class=date] {
 
 .validation * {
   margin: 1em;
+}
+
+.lblfin {
+  margin-left: 2em
+}
+
+.cache {
+  display: none;
+}
+
+#horaire:target .cache {
+  display: block;
 }
