@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="css/style-facture.css">
+    <link rel="stylesheet" href="../css/style-menu.css">
+    <title>Paiement par virement</title>
+  </head>
+  <body>
+    <div class="container menubar">
+      <nav>
+        <ul>
+          <li><a href="../index.html"><img src="../Logo/logo_V3.jpg" alt="logoimg" class="logoimg"> </a></li>
+          <li><a href="../Fournisseurs/index.html"><img src="../images\truck-solid.svg" alt="fournisseurs" class="icone" fill=> <br><p>Fournisseurs</p></a></li>
+          <li><a href="#"><img src="../images\cubes-solid.svg" alt="articles" class="icone"> <br><p>Articles</p></a></li>
+          <li><a href="#"><img src="../images\file-invoice-solid.svg" alt="factures" class="icone"><br><p>Factures</p></a></li>
+          <li><a href="#"><img src="../images\users-solid.svg" alt="clients" class="icone"><br><p>Clients</p></a></li>
+          <li><a href="../Horaires/liste.html"><img src="../images\clock-regular.svg" alt="horaires" class="icone"><br><p>Horaires</p></a></li>
+          <li><a href="#"><img src="../images\chart-line-solid.svg" alt="statistiques" class="icone"> <br><p>Statistiques</p></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container paiement">
+      <div class="row haut">
+        <div class="one columns centered">
+          <a class="retour" title="retour" href="../index.html"><img src="./images/retour.png" alt="retour"></a>
+        </div>
+        <div class="ten columns centered">
+          <h1>Paiement par virement</h1>
+        </div>
+      </div>
+      <div class="row centre centered">
+        <h5 class="block">Commande n°</h5>
+        <input type="text" class="block" name="" value="">
+      </div>
+      <div class="row selection centered">
+        <h5>Sélectionner un fournisseur</h5>
+        <select class="fournisseur" name="">
+          <option value="">LES PRES RIEN BIO</option>
+          <option value="">NATURDIS</option>
+          <option value="">BONNETERRE</option>
+          <option value="">PRONADIS</option>
+          <option value="">RELAIS VERT</option>
+          <option value="">PUR ALIMENT</option>
+          <option value="">PROBABIO</option>
+          <option value="">VITAFRAIS</option>
+        </select>
+      </div>
+      <div class="row">
+        <div class="offset-by-three six columns cadre">
+          <legend class="centered">Informations</legend>
+          <p>Banque :</p>
+          <p>IBAN :</p>
+          <p>BIC :</p>
+        </div>
+      </div>
+      <div class="row montant centered">
+        <h5 class="block">Montant</h5>
+        <input type="text" name="" value="" class="block">
+        <h5 class="block">€</h5>
+      </div>
+      <div class="row centered">
+        <input type="checkbox" class="block" />
+        <label for="isexpanded" class="block">Paiement différé</label>
+        <p class="expandable"><input type="date" name="date" value=""></p>
+      </div>
+      <div class="row centered">
+        <a class="button" href="#">Payer</a>
+      </div>
+    </div>
+  </body>
+</html>

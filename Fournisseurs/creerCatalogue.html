@@ -2,14 +2,92 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./css/creerCatalogue.css">
-    <title>Erreur</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="./css/style-fournisseurs.css">
+    <link rel="stylesheet" href="../css/style-menu.css">
+    <title>Créer Catalogue</title>
   </head>
   <body>
-    <section class="cadre">
-      <a class="retour" href="../../index.html"><img src="./images/retour.png" alt="retour"></a>
-      <h1>Enregistrement des horaires</h1>
-      
-    </section>
+    <div class="container menubar">
+      <nav>
+        <ul>
+          <li><a href="../index.html"><img src="../Logo/logo_V3.jpg" alt="logoimg" class="logoimg"> </a></li>
+          <li><a href="index.html"><img src="../images\truck-solid.svg" alt="fournisseurs" class="icone" fill=> <br><p>Fournisseurs</p></a></li>
+          <li><a href="#"><img src="../images\cubes-solid.svg" alt="articles" class="icone"> <br><p>Articles</p></a></li>
+          <li><a href="#"><img src="../images\file-invoice-solid.svg" alt="factures" class="icone"><br><p>Factures</p></a></li>
+          <li><a href="#"><img src="../images\users-solid.svg" alt="clients" class="icone"><br><p>Clients</p></a></li>
+          <li><a href="../Horaires/liste.html"><img src="../images\clock-regular.svg" alt="horaires" class="icone"><br><p>Horaires</p></a></li>
+          <li><a href="#"><img src="../images\chart-line-solid.svg" alt="statistiques" class="icone"> <br><p>Statistiques</p></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="row haut centered">
+        <div class="one columns">
+          <a class="retour" href="index.html"><img src="./images/retour.png" alt="retour"></a>
+        </div>
+        <div class="ten columns">
+          <h1>Liste des fournisseurs</h1>
+        </div>
+      </div>
+      <div class="row centre">
+        <div class="five columns centered">
+          <h5>Fournisseur</h5>
+        </div>
+        <div class="five columns">
+          <select class="fournisseur u-full-width" name="">
+            <option value="">Les Pres Ries Bio</option>
+          </select>
+        </div>
+      </div>
+      <div class="row centre">
+        <div class="five columns centered">
+          <h5>Référence fournisseur</h5>
+        </div>
+        <div class="five columns">
+          <input type="text" class="u-full-width">
+        </div>
+      </div>
+      <div class="row centre">
+        <div class="five columns centered">
+          <h5>Marque commerciale</h5>
+        </div>
+        <div class="five columns">
+          <input type="text" class="u-full-width">
+        </div>
+      </div>
+      <div class="row centre">
+        <div class="five columns centered">
+          <h5>Désignation</h5>
+        </div>
+        <div class="five columns">
+          <input type="text" class="u-full-width">
+        </div>
+      </div>
+      <div class="row centre">
+        <div class="five columns centered">
+          <h5>Conditionnement</h5>
+        </div>
+        <div class="five columns">
+          <input type="text" class="u-full-width">
+        </div>
+      </div>
+      <div class="row centre">
+        <div class="five columns centered">
+          <h5>Prix fournisseur HT</h5>
+        </div>
+        <div class="two columns">
+          <input type="number" class="u-full-width">
+        </div>
+        <div class="three columns">
+          <h5>€ Hors Taxes</h5>
+        </div>
+      </div>
+      <div class="row centered centre">
+        <a href="#" class="button">Ajouter au catalogue</a>
+      </div>
+    </div>
   </body>
 </html>
