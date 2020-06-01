@@ -26,50 +26,66 @@
   text-transform: uppercase;
 }
 
-nav{
+.menubar nav{
   width: 100%;
-  border-top: solid transparent;
   align-items: center;
 }
 
-nav ul{
+.menubar nav ul{
   list-style-type: none;
 }
 
-nav ul li{
+.menubar nav ul li{
   float: left;
-  width: calc(14.2857143% - 1px);
+  width: calc(14.2857143% - 3px);
   text-align: center;
+  font-weight: normal;
+  border: medium solid black;
+  border-right: none;
+  line-height: normal;
 }
 
-nav ul li:last-child{
-  border-right: medium solid black;
-}
-
-nav a{
+.menubar nav a{
   display: block;
   text-decoration: none;
   color: black;
   padding: 1em 0em;
-  border: medium solid black;
-  border-right: none;
   height: 4em;
 }
 
-nav a:hover{
+.menubar nav ul li:last-child{
+  border-right: medium solid black;
+}
+
+.menubar nav ul li:hover{
   color: #ABBB33;
   border-bottom: medium solid #ABBB33;
   border-top: medium solid #ABBB33;
 }
 
-.logoimg {
+.menubar .logoimg {
   height: 3.5em
 }
 
-.icone {
+.menubar .icone {
   height: 2.5em
 }
 
 .item1, .item2 {
   margin-right: 3em;
+}
+
+.menubar p {
+  margin: 0.5em;
+}
+
+input[type=submit],
+a[class=button] {
+	color: black;
+	border: medium solid #498129;
+}
+
+input[type=submit]:hover,
+a[class=button]:hover {
+	background-color: #ABBB33;
 }

@@ -1,4 +1,4 @@
-img {
+.saisie img, .liste img {
   width: 4em;
 }
 
@@ -34,6 +34,11 @@ img[class=date] {
 .saisie input[type=text] {
   width: 4em;
   height: 4em;
+}
+
+.saisie input[class=nom] {
+  width: 70%;
+  height: 2.5em;
 }
 
 .info {
