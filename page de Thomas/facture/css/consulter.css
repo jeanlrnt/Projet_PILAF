@@ -63,33 +63,6 @@ h1 {
 	font-weight: bold;
 	margin-top: 12px;
 }
-select {
-	border: 1px solid black;
-	border-right: none;
-	background-image: url('../images/select.png');
-	background-position: center right;
-	background-repeat: no-repeat;
-	background-size: 80px;
-	-webkit-appearance: none;
-	padding: 0px 160px;
-	padding-left: 80px;
-	font-size: 14px;
-	height: 30px;
-}
-select:hover {
-	background-image: url('../images/select2.png');
-}
-p {
-	width: 42%;
-	font-size: 26px;
-}
-p {
-	text-align: left;
-	font-style: italic;
-}
-select {
-	text-align: center;
-}
 .retour img {
 	width: 60px;
 }
@@ -109,53 +82,24 @@ img {
 	vertical-align: middle;
 	margin-right: 10px;
 }
-.bouton {
-	text-decoration: none;
-	color: black;
-	padding: 6px;
-	padding-top: 8px;
-	padding-right: 15px;
-	border: 2px solid black;
-	height: 30px;
-	margin: 15px 50px;
-}
-.bouton:hover {
-	color: white;
-	background-color: black;
-}
-.bouton:hover img {
-	filter: invert(100%);
-}
 table {
 	width: 90%;
+	margin-top: 20px;
 	margin-bottom: 20px;
-	border-collapse: separate;
-	border-spacing : 0px 20px;
 	font-size: 28px;
 }
 td, th {
-	border: 2px solid black;
-	border-right: none;
-	border-left: none;
+	border: 1.5px solid black;
 	padding: 20px;
 	vertical-align: middle;
 }
-td:nth-child(4n+1) {
-	border-left: 2px solid black;
-}
-td:nth-child(4n+4) {
-	border-right: 2px solid black;
-}
-th {
-	font-weight: bold;
-}
 tr:first-child {
-	background-color: #bababa;
+	background-color: #80c70e;
 }
 .next {
-	width: 80px;
+	width: 100px;
 	margin-bottom: 20px;
-	margin-left: calc(100% - 100px);
+	margin-left: calc(100% - 120px);
 	text-align: right;
 	text-decoration: none;
 	color: black;

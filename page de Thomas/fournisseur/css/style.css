@@ -70,24 +70,23 @@ h1 {
 	width: 100%;
 }
 .haut span {
-	width: calc(100% - 260px);
-	max-width: 400px;
+	width: calc(100% - 280px);
 	height: 140px;
 	display: flex;
 	flex-flow: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	text-align: left;
 }
 .haut span p {
-	width: 80px;
+	width: 90px;
 	height: 20px;
-	margin-left: 5%;
-	margin-top: 2.5px;
+	margin-left: 14%;
+	margin-top: 0px;
 }
 .haut input {
-	width: calc(100% - 120px);
+	width: calc(86% - 120px);
 	min-width: 130px;
-	max-width: 270px;
+	max-width: 320px;
 	height: 20px;
 }
 .retour img {
@@ -105,11 +104,13 @@ h1 {
 	margin-bottom: 20px;
 }
 h2 {
-	font-size: 20px;
+	font-size: 40px;
 	font-weight: bold;
 	width: 95%;
 	margin-left: 5%;
 	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .coordonnees, .localisation, .banque, .contact {
 	width: 100%;
@@ -119,15 +120,13 @@ h2 {
 }
 .coordonnees span {
 	margin-left: 5%;
-	margin-right: 30px;
-	width: 40%;
+	margin-right: 20px;
 	display: flex;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 .coordonnees span p {
-	min-width: 100px;
-	max-width: 100px;
+	width: 130px;
 	padding: 0px;
 	text-align: left;
 }
@@ -147,26 +146,27 @@ h2 {
 	justify-content: flex-start;
 }
 .localisation span p, .banque span p, .contact span p {
-	width: 100px;
+	width: 200px;
 	padding: 0px;
 	text-align: left;
 }
 .contact span p {
-	width: 60px;
+	width: 100px;
 }
 .contact span input {
-	width: calc(50% - 80px);
+	width: calc(50% - 100px);
 	max-width: 240px;
 	margin-right: 20px;
 }
 .banque span p {
-	width: 160px;
+	width: 200px;
 }
 .banque span input {
-	width: calc(50% - 160px);
+	width: calc(100% - 220px);
+	min-width: 150px;
 }
 .localisation span input, .banque span input {
-	width: calc(50% - 100px);
+	width: calc(50% - 80px);
 }
 .ligne p {
 	min-width: 90px;
@@ -175,6 +175,7 @@ h2 {
 	width: 80%;
 	height: 100px;
 	margin-bottom: 20px;
+	font-size: 7px;
 }
 .commentaires span {
 	width: 100%;
@@ -191,6 +192,22 @@ h2 {
 	color: white;
 	background-color: green;
 }
+p {
+	font-size: 24px;
+}
+.haut .lienImage {
+	width: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.delete img, .edit img, .catalogue img {
+	margin-top: -15px;
+	width: 50px;
+}
+.catalogue img {
+	margin-top: -30px;
+}
 /************************************** Logo **************************************/
 label {
 	text-align: center;
@@ -200,6 +217,7 @@ label {
 	height: 200px;
 	margin-bottom: 20px;
 	margin-right: 10px;
+	margin-left: 0px;
 }
 .line1 {
 	margin-top: 99px;
@@ -249,7 +267,18 @@ input[type=file] {
 		margin-top: 40px;
 		margin-left: 0px;
 		margin-right: 0px;
-		width: calc(100% - 200px);
+		width: calc(100% - 220px);
+	}
+	.haut span {
+		justify-content: flex-start;
+	}
+	.haut span p {
+		margin-top: 7px;
+		margin-right: 0px;
+		width: 90px;
+	}
+	.haut span input {
+		margin-right: 100px;
 	}
 	h2 {
 		font-size: 35px;
@@ -266,9 +295,6 @@ input[type=file] {
 	}
 	.localisation span p {
 		width: 130px;
-	}
-	.haut span p {
-		width: 100px;
 	}
 	.haut span input {
 		margin-top: 4px;
@@ -293,5 +319,30 @@ input[type=file] {
 	}
 	input, .coordonnees span input {
 		height: 22px;
+	}
+	p {
+		font-size: 20px;
+	}
+	.haut span {
+		width: 650px;
+		max-width: 650px;
+	}
+	.commentaires textarea {
+		font-size: 20px;
+	}
+	.haut .lienImage {
+		width: 70px;
+		height: 150px;
+	}
+	.edit, .catalogue {
+		width: 70px;
+		height: 70px;
+	}
+	.delete img, .edit img, .catalogue img {
+		width: 70px;
+		margin: 0px;
+	}
+	.catalogue img {
+		margin-top: 20px;
 	}
 }

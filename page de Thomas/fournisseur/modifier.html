@@ -7,8 +7,9 @@
   </head>
   <body>
     <section class="haut">
-      <a class="retour" href="http://thomas-marty.fr/"><img src="./images/retour.png" alt="retour"></a>
+      <a class="retour" title="retour" href="./afficher.html"><img src="./images/retour.png" alt="retour"></a>
       <h1>Modifier un fournisseur</h1>
+      <a class="delete" href=""><img src="./images/delete.png" alt="delete"></a>
       <label for="file">
         <input id="file" type="file" name="logo" value="logo">
         <div class="line1"></div>
@@ -16,43 +17,42 @@
         <p class="txtLogo">Logo</p>
       </label>
       <span>
-        <p>Nom</p><input type="text" name="" value="ORANGE">
-        <p>Site Web</p><input type="text" name="" value="www.orange.fr">
+        <p>Nom</p><input type="text" name="" value="LES PRES RIENT BIO" readonly>
+        <p>Site Web</p><input type="text" name="" value="www.les2vaches.com" readonly>
       </span>
     </section>
     <section class="coordonnees">
       <h2>Coordonnées</h2>
-      <span><p>Téléphone</p><input type="text" name="" value="0153534587"></span>
-      <span><p>Fax</p><input type="text" name="" value="0153534587"></span>
-      <span><p>Mail</p><input type="email" name="" value="contact@orange.fr"></span>
-      <span><p>N°SIREN</p><input type="text" name="" value="38012F9866"></span>
+      <span><p>Téléphone</p><input type="tel" name="" value="0149485293" readonly></span>
+      <span><p>Fax</p><input type="text" name="" value="0149485299" readonly></span>
+      <span><p>Mail</p><input type="email" name="" value="contact@les2vaches.fr" readonly></span>
+      <span><p>N°SIREN</p><input type="text" name="" value="489872903" readonly></span>
     </section>
     <section class="localisation">
       <h2>Localisation</h2>
-      <span><p>Adresse</p><input type="text" name="" value="78 rue Olivier de Serres"></span>
-      <span><p>Ville</p><input type="text" name="" value="Paris"></span>
-      <span><p>Code Postal</p><input type="text" name="" value="75015"></span>
-      <span><p>Pays</p><input type="text" name="" value="FRANCE"></span>
+      <span><p>Adresse</p><input type="text" name="" value="150 Boulevard Victor Hugo" readonly></span>
+      <span><p>Ville</p><input type="text" name="" value="SAINT-OUEN" readonly></span>
+      <span><p>Code Postal</p><input type="number" name="" value="93400" readonly></span>
+      <span><p>Pays</p><input type="text" name="" value="FRANCE" readonly></span>
     </section>
     <section class="contact">
       <h2>Contact interne</h2>
       <span>
-        <p>Nom</p><input type="text" name="" value="CROZIER">
-        <p>Prénom</p><input type="text" name="" value="Sébastien">
+        <p>Nom</p><input type="text" name="" value="PAUL" readonly>
+        <p>Prénom</p><input type="text" name="" value="François" readonly>
       </span>
-      <span class="ligne"><p>Fonction</p><input type="text" name="" value="Commercial Nouvelle-Aquitaine"></span>
+      <span class="ligne"><p>Fonction</p><input type="text" name="" value="Commercial Danone Nouvelle-Aquitaine" readonly></span>
     </section>
     <section class="banque">
       <h2>Banque</h2>
-      <span><p>Titulaire du compte</p><input type="text" name="" value="ORANGE"></span>
-      <span><p>Nom de la Banque</p><input type="text" name="" value="CIC"></span>
-      <span><p>IBAN</p><input type="text" name="" value="FR46 1234 5678 9123 4567 8912 789"></span>
-      <span><p>BIC</p><input type="text" name="" value="1024 01 87"></span>
+      <span><p>Titulaire du compte</p><input type="text" name="" value="LES PRES RIENT BIO" readonly></span>
+      <span><p>Nom de la Banque</p><input type="text" name="" value="LCL" readonly></span>
+      <span><p>IBAN</p><input type="text" name="" value="FR46 1234 5678 9123 4567 8912 789" readonly></span>
+      <span><p>BIC</p><input type="text" name="" value="1024 01 87" readonly></span>
     </section>
     <section class="commentaires">
       <h2>Commentaires</h2>
-      <textarea name="text" rows="8" cols="80">Spécialiste de la télécommunication en France et dans le Monde.
-Fournisseur en téléphonie/internet de notre entreprise.</textarea>
+      <textarea name="text" rows="8" cols="80" readonly>Ce fournisseur est une filiale de Danone France, ils commercialisent entre autre la marque "Les 2 Vaches" ainsi que "Danone BIO".</textarea>
       <span><a href="">Valider la modification</a></span>
     </section>
   </body>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/paiement.css">
+    <title>Paiement par virement</title>
+  </head>
+  <body>
+    <section class="cadre">
+      <a class="retour" title="retour" href="../index.html"><img src="./images/retour.png" alt="retour"></a>
+      <h1>Paiement par virement</h1>
+      <span>
+          <p>Commande n°</p>
+          <input type="text" class="commande" name="" value="">
+      </span>
+      <h2>Sélectionner un fournisseur</h2>
+      <select class="fournisseur" name="">
+        <option value="">LES PRES RIEN BIO</option>
+        <option value="">NATURDIS</option>
+        <option value="">BONNETERRE</option>
+        <option value="">PRONADIS</option>
+        <option value="">RELAIS VERT</option>
+        <option value="">PUR ALIMENT</option>
+        <option value="">PROBABIO</option>
+        <option value="">VITAFRAIS</option>
+      </select>
+      <fieldset>
+        <legend>Informations</legend>
+        <p>Banque :</p>
+        <p>IBAN :</p>
+        <p>BIC :</p>
+      </fieldset>
+      <h2>Montant</h2>
+      <span class="montant">
+        <input type="text" name="" value="">
+        <p>.</p>
+        <input type="text" name="" value="">
+        <p>€</p>
+      </span>
+      <input type="checkbox" id="isexpanded" />
+      <label for="isexpanded" id="expand">Paiement différé</label>
+      <p class="expandable"><input type="date" name="date" value=""></p>
+      <a class="payer" href="">Payer</a>
+    </section>
+  </body>
+</html>

@@ -140,10 +140,10 @@ td, th {
 	padding: 20px;
 	vertical-align: middle;
 }
-td:nth-child(4n+1) {
+th {
 	border-left: 2px solid black;
 }
-td:nth-child(4n+4) {
+td:nth-child(n+3) {
 	border-right: 2px solid black;
 }
 th {

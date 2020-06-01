@@ -1,0 +1,220 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+/******************************************* *******************************************/
+body {
+	margin: 10px;
+	width: calc(100% - 20px);
+	border: 2px black solid;
+}
+.cadre {
+	width: 100%;
+	text-align: center;
+}
+.cadre {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	padding-top: 20px;
+}
+h1 {
+	text-decoration: underline;
+	font-size: 34px;
+	margin-top: 12px;
+}
+.retour img {
+	width: 60px;
+}
+.retour img:hover {
+	width: 50px;
+	margin: 5px;
+}
+.retour {
+	width: 60px;
+	height: 60px;
+	border: none;
+	cursor: pointer;
+}
+span {
+	width: 100%;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}
+h2 {
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	margin: 10px 0px;
+}
+fieldset {
+	width: 80%;
+	max-width: 600px;
+	margin: 20px calc(50% - 300px);
+	border: 1px solid black;
+}
+p {
+	text-align: left;
+	margin: 10px;
+	font-size: 20px;
+}
+.commande {
+	width: 100px;
+	height: 24px;
+	font-size: 16px;
+	margin-top: 8px;
+}
+legend {
+	margin: auto;
+	font-size: 25px;
+	padding: 0px 10px;
+}
+select {
+	width: 80%;
+	height: 40px;
+	max-width: 600px;
+	font-size: 16px;
+	text-align: center;
+	background-image: url('../images/select.png');
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-size: 50px;
+	padding-right: 50px;
+	-webkit-appearance: none;
+	border: 1px solid black;
+	border-right: none;
+}
+select:hover {
+	background-image: url('../images/select2.png');
+}
+.montant {
+	width: 230px;
+	margin: 0px calc(50% - 115px);
+}
+.montant p {
+	font-size: 40px;
+	font-weight: bold;
+}
+.montant input {
+	height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 70px;
+}
+.montant input:nth-child(2n+3) {
+	width: 35px;
+}
+input[type=checkbox] {
+	margin:0px;
+	height: 18px;
+	width: 18px;
+	margin-right: 10px;
+}
+input[type=date] {
+	background-image: url('../images/calendar.png');
+	background-position: center right 20px;
+	background-repeat: no-repeat;
+	background-size: 40px;
+	width: 280px;
+	height: 40px;
+	font-size: 30px;
+	margin: 0px calc(50% - 150px);
+	border: 1px solid black;
+}
+.expandable {
+  display: none;
+}
+#isexpanded:checked ~ p.expandable, #isexpanded:checked ~ * p.expandable {
+    display: block;
+		width: 100%;
+}
+#expand {
+	width: calc(80% - 18px);
+	max-width: 540px;
+	text-align: left;
+	margin: 20px 0px;
+}
+.payer {
+	width: 60px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: black;
+	border: 4px solid #03ba26;
+	margin: 30px calc(50% - 30px);
+}
+.payer:hover {
+	border: 4px solid white;
+	background-color: #03ba26;
+}
+@media screen and (min-width: 981px) {
+	body {
+		width: 970px;
+		display: block;
+		margin: 10px auto;
+	}
+	.cadre {
+		align-items: center;
+		padding-top: 0px;
+	}
+	.retour {
+		margin-left: 70px;
+		margin-right: 20px;
+		margin-top: 38px;
+	}
+	h1 {
+		font-size: 28px;
+		margin-top: 35px;
+		margin-left: 0px;
+		margin-right: 130px;
+		width: 253.5px;
+	}
+}
