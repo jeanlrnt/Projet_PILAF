@@ -1,5 +1,5 @@
 .saisie img, .liste img {
-  width: 4em;
+  width: 3em;
 }
 
 .saisie, .liste {
@@ -22,6 +22,7 @@ td, th {
 
 .date {
   display: inline-block;
+  vertical-align: middle;
 }
 
 .date img {
@@ -32,12 +33,12 @@ td, th {
 
 img[class=date] {
   width: 2em;
-  vertical-align: middle;
+  padding-bottom: 1em
 }
 
 .saisie input[type=text] {
-  width: 3em;
-  height: 3em;
+  width: 2.5em;
+  height: 2.5em;
 }
 
 .saisie input[class=nom] {
@@ -56,14 +57,24 @@ img[class=date] {
   margin: 1em;
 }
 
-.lblfin {
-  margin-left: 2em
-}
-
 .cache {
   display: none;
 }
 
 #horaire:target .cache {
   display: block;
+}
+
+.buttonPlus img {
+  width: 2em;
+}
+
+.total {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 2em 0.2em;
+}
+
+.lblfin {
+  margin-left: 2em
 }

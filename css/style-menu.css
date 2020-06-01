@@ -63,15 +63,20 @@
   color: black;
   padding: 1em 0em;
   height: 4em;
+  font-weight: bold;
 }
 
 .menubar nav ul li:last-child{
   border-right: 2px solid black;
 }
 
-.menubar nav ul li:hover{
+.menubar nav ul li:hover {
+  border-bottom: none;
+}
+
+.menubar nav a:hover{
   color: #ABBB33;
-  border-bottom: medium solid #ABBB33;
+  border-bottom: 2px solid #ABBB33;
 }
 
 .menubar .logoimg {

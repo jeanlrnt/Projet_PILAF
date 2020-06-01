@@ -54,6 +54,10 @@ input[type=file] {
 	padding: 0em 2em;
 }
 
+.fournisseur {
+	padding-left: 4em;
+}
+
 .haut .labels {
 	margin-top: 2em;
 }
