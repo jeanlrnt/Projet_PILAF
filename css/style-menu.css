@@ -117,7 +117,8 @@ thead {
 }
 
 thead th {
-  border-bottom: thin solid black
+  border-bottom: thin solid black;
+  text-align: center;
 }
 
 body {
@@ -140,4 +141,18 @@ img[class=next] {
 	width: 2em;
 	margin-left: 2em;
   vertical-align: middle;
+}
+
+.no-top {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.no-bottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h6 {
+  margin-bottom: 0;
 }

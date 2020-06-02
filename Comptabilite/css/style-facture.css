@@ -2,7 +2,15 @@
   padding-left: 4em;
 }
 
-.consulterF img, .consulterV img, .paiement img {
+.commande .retour {
+  margin-left: -4em;
+}
+
+.commandes .retour {
+  margin-left: 4em;
+}
+
+.consulterF img, .consulterV img, .paiement img, .commande img, .commandes img {
 	width: 4em
 }
 
@@ -33,4 +41,43 @@ img[class=next] {
 .cadre {
   border: thin solid black;
   padding: 1em;
+}
+
+.centre {
+  padding-left: 2em;
+}
+
+.petit {
+  width: 4em
+}
+
+.aligne {
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+table * {
+  font-size: 0.95em;
+}
+
+.remise {
+  padding-top: 10%
+}
+
+.cadrer {
+  border: thin solid black
+}
+
+.boutons {
+  margin: 2em 0;
+}
+
+.commande .boutons a {
+  width: 30em;
+}
+
+.commandes a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
 }

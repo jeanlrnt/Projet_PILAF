@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="css/style-facture.css">
+    <link rel="stylesheet" href="../css/style-menu.css">
+    <title>Creer commande</title>
+  </head>
+  <body>
+    <div class="container menubar">
+      <nav>
+        <ul>
+          <li><a href="../index.html"><img src="../Logo/logo_V3.jpg" alt="logoimg" class="logoimg"> </a></li>
+          <li><a href="../Fournisseurs/index.html"><img src="../images\truck-solid.svg" alt="fournisseurs" class="icone" fill=> <br><p>Fournisseurs</p></a></li>
+          <li><a href="#"><img src="../images\cubes-solid.svg" alt="articles" class="icone"> <br><p>Articles</p></a></li>
+          <li><a href="#"><img src="../images\file-invoice-solid.svg" alt="factures" class="icone"><br><p>Factures</p></a></li>
+          <li><a href="#"><img src="../images\users-solid.svg" alt="clients" class="icone"><br><p>Clients</p></a></li>
+          <li><a href="../Horaires/liste.html"><img src="../images\clock-regular.svg" alt="horaires" class="icone"><br><p>Horaires</p></a></li>
+          <li><a href="#"><img src="../images\chart-line-solid.svg" alt="statistiques" class="icone"> <br><p>Statistiques</p></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container commande">
+      <div class="container">
+        <div class="one columns centered">
+          <a class="retour" title="retour" href="index.html"><img src="./images/retour.png" alt="retour"></a>
+        </div>
+        <div class="ten columns centered">
+          <h1>Commande n°215</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="three columns">
+          <h5>Fournisseur</h5>
+        </div>
+        <div class="nine columns">
+          <select class="u-full-width" name="">
+            <option >LES PRES RIENT BIO</option>
+          </select>
+        </div>
+      </div>
+      <div class="row container cadrer no-top">
+        <table class="u-full-width">
+          <thead>
+            <th>ref</th>
+            <th>désignation</th>
+            <th>quantité</th>
+            <th>P.U HT</th>
+            <th>% TVA</th>
+            <th>Montant HT</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>001</td>
+              <td><select class="aligne u-full-width" name="">
+                <option value="">LES 2 VACHES - YAOURT BIO BRASSE NATURE</option>
+                <option value="">LES 2 VACHES - DESSERT BIO AU CHOCOLAT</option>
+              </select></td>
+              <td><input class="petit centered aligne" type="text" name="" placeholder="0"></td>
+              <td>O.80</td>
+              <td><select class="aligne" name="">
+                <option value="">2,1 %</option>
+                <option value="">5,5 %</option>
+                <option value="">10  %</option>
+                <option value="">20  %</option>
+              </select></td>
+              <td>44.00 €</td>
+            </tr>
+            <tr>
+              <td>006</td>
+              <td><select class="aligne u-full-width" name="">
+                <option value="">LES 2 VACHES - DESSERT BIO AU CHOCOLAT</option>
+                <option value="">LES 2 VACHES - YAOURT BIO BRASSE NATURE</option>
+              </select></td>
+              <td><input class="petit centered aligne" type="text" name="" placeholder="0"></td>
+              <td>O.80</td>
+              <td><select class="aligne" name="">
+                <option value="">2,1 %</option>
+                <option value="">5,5 %</option>
+                <option value="">10  %</option>
+                <option value="">20  %</option>
+              </select></td>
+              <td>44.00 €</td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td><select class="aligne u-full-width" name="">
+                <option value="default" placeholder>choisir un produit de la liste</option>
+                <option value="">LES 2 VACHES - DESSERT BIO AU CHOCOLAT</option>
+                <option value="">LES 2 VACHES - YAOURT BIO BRASSE NATURE</option>
+              </select></td>
+              <td><input class="petit centered aligne" type="text" name="" placeholder="0"></td>
+              <td>-</td>
+              <td><select class="aligne" name="">
+                <option value="">2,1 %</option>
+                <option value="">5,5 %</option>
+                <option value="">10  %</option>
+                <option value="">20  %</option>
+              </select></td>
+              <td>-</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="row no-top">
+          <div class="offset-by-seven five columns centered">
+            <div class="row no-top">
+              <div class="eight columns">
+                <h6>Montant Brut</h6>
+              </div>
+              <div class="four columns">
+                <h6>124.58</h6>
+              </div>
+            </div>
+            <div class="row no-top">
+              <div class="eight columns">
+                <h6 class="block">Remise</h6>
+                <input class="block petit aligne" type="number" name="" placeholder="1">
+                <h6 class="block">(%)</h6>
+              </div>
+              <div class="four columns">
+                <h6 class="remise">1.25</h6>
+              </div>
+            </div>
+            <div class="row no-top">
+              <div class="eight columns">
+                <h6>Net Commercial HT</h6>
+              </div>
+              <div class="four columns">
+                <h6>123.33</h6>
+              </div>
+            </div>
+            <div class="row no-top">
+              <div class="eight columns">
+                <h6>Frais de port</h6>
+              </div>
+              <div class="four columns">
+                <h6>12</h6>
+              </div>
+            </div>
+            <div class="row no-top">
+              <div class="eight columns">
+                <h6>Net financier</h6>
+              </div>
+              <div class="four columns">
+                <h6>135.33</h6>
+              </div>
+            </div>
+            <div class="row no-top">
+              <div class="eight columns">
+                <h6>Montant TVA</h6>
+              </div>
+              <div class="four columns">
+                <h6>7.44</h6>
+              </div>
+            </div>
+            <div class="row no-top">
+              <div class="eight columns">
+                <h6>Net à payer</h6>
+              </div>
+              <div class="four columns">
+                <h6>142.77 €</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="centered twelve columns boutons">
+        <a class="button" href="index.html">Enregistrer en tant que brouillon</a>
+        <a class="button" href="liste.html">Commander</a>
+      </div>
+    </div>
+  </body>
+</html>
