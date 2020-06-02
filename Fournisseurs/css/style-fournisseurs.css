@@ -100,3 +100,8 @@ td, th, .recherche, .boutons {
 .recherche input[type=search] {
 	width: 40%
 }
+
+.catalogue a {
+	text-decoration: none;
+	color: inherit;
+}
