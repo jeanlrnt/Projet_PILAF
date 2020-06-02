@@ -5,7 +5,7 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="../css/skeleton.css">
-    <link rel="stylesheet" type="text/css" href="./css/style-fournisseurs.css">
+    <link rel="stylesheet" type="text/css" href="./css/style-stock.css">
     <link rel="stylesheet" href="../css/style-menu.css">
 
     <title>Catalogue produits</title>
@@ -24,36 +24,51 @@
         </ul>
       </nav>
     </div>
-    <div class="container catalogue">
+    <div class="container liste">
       <div class="row">
         <div class="one columns">
-          <a class="retour" href="index.html"><img src="./images/retour.png" alt="retour"></a>
+          <a class="retour" href="../index.html"><img src="../images/retour.png" alt="retour"></a>
         </div>
-        <div class="ten columns">
-          <h1>Liste des fournisseurs</h1>
+        <div class="ten columns centered">
+          <h1>Liste des produits</h1>
         </div>
       </div>
-      <div class="row centre">
-        <div class="boutons twelve columns">
-          <a class="button" href="creer.html"><img src="./images/plus.png" alt="plus">Ajouter un fournisseur</a>
-          <a class="button" href="#"><img src="./images/caddie.png" alt="caddie">Effectuer une commande</a>
+      <div class="row ">
+        <div class="centered twelve columns">
+          <div class="six columns centered tri">
+            <h4 class="block">Trier par</h4>
+            <select class="block" name="">
+              <option value="">Libellé</option>
+            </select>
+          </div>
+          <div class="six columns centered recherche">
+            <h4 class="block">Rechercher</h4>
+            <input class="block" type="search" placeholder="Exemple: MARTEAU">
+          </div>
+        </div>
+        <div class="centered twelve columns">
+          <a class="button" href="creer.html">Ajouter un produit</a>
         </div>
       </div>
       <div class="row table">
-        <table class="u-full-width">
+        <table class="u-full-width ">
           <thead>
             <tr>
-              <th>NOM DU FOURNISSEUR</th>
-              <th>N° DE TELEPHONE</th>
-              <th>EMAIL</th>
+              <th>Ref</th>
+              <th>Marque commerciale</th>
+              <th>Désignation</th>
+              <th>Quantité</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th><a href="#">LES PRES RIENT BIO</a></th>
-              <td>04 90 78 73 00</td>
-              <td>contact@les2vaches.com</td>
+              <td>5423187496307</td>
+              <td>LES 2 VACHES</td>
+              <td><a class="titre" href="afficher.html">DESSERT BIO AU CHOCOLAT</a></td>
+              <td>26</td>
             </tr>
+
+              <!--
             <tr>
               <th>NATURDIS</th>
               <td>02 99 54 12 18</td>
@@ -88,11 +103,11 @@
               <th>VITAFRAIS</th>
               <td>03 26 87 86 86</td>
               <td>support@vitafrais.fr</td>
-            </tr>
+            </tr>-->
           </tbody>
         </table>
         <div class="offset-by-nine one columns">
-          <a class="button next" href="#">1/7<img class="next" src="./images/next.png" alt="next"></a>
+          <a class="button next" href="#">1/7<img class="next" src="../images/next.png" alt="next"></a>
         </div>
       </div>
     </div>

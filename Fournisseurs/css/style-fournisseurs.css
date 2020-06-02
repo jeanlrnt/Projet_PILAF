@@ -88,11 +88,6 @@ input[type=file] {
 	margin: 2em 0em
 }
 
-img[class=next] {
-	width: 2em;
-	margin-left: 2em;
-}
-
 td, th, .recherche, .boutons {
 	text-align: center;
 }

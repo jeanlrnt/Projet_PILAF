@@ -26,10 +26,6 @@ img[class=next] {
   vertical-align: middle;
 }
 
-.block {
-  display: inline-block;
-}
-
 .cadre {
   border: thin solid black;
   padding: 1em;
