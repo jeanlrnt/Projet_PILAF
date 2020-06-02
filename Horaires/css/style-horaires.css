@@ -1,5 +1,5 @@
-.saisie img, .liste img {
-  width: 3em;
+.saisie img, .liste img, .infos img {
+  width: 4em;
 }
 
 .saisie, .liste {
@@ -77,4 +77,8 @@ img[class=date] {
 
 .lblfin {
   margin-left: 2em
+}
+
+.infos .retour {
+  margin-left: 4em
 }

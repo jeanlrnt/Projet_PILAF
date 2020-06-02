@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/skeleton.css">
-    <link rel="stylesheet" type="text/css" href="css/style-facture.css">
+    <link rel="stylesheet" type="text/css" href="css/style-horaires.css">
     <link rel="stylesheet" href="../css/style-menu.css">
-    <title>Comptabilité</title>
+    <title>Liste Secretariat</title>
   </head>
   <body>
     <div class="container menubar">
@@ -17,23 +17,25 @@
           <li><a href="#"><img src="../images\cubes-solid.svg" alt="articles" class="icone"> <br><p>Articles</p></a></li>
           <li><a href="#"><img src="../images\file-invoice-solid.svg" alt="factures" class="icone"><br><p>Factures</p></a></li>
           <li><a href="#"><img src="../images\users-solid.svg" alt="clients" class="icone"><br><p>Clients</p></a></li>
-          <li><a href="../Horaires/liste.html"><img src="../images\clock-regular.svg" alt="horaires" class="icone"><br><p>Horaires</p></a></li>
+          <li><a href="liste.html"><img src="../images\clock-regular.svg" alt="horaires" class="icone"><br><p>Horaires</p></a></li>
           <li><a href="#"><img src="../images\chart-line-solid.svg" alt="statistiques" class="icone"> <br><p>Statistiques</p></a></li>
         </ul>
       </nav>
+      <div class="row">
+        <div class="chemin">
+          <a href="../index.html">Accueil</a> > <a href="#">Horaires</a>
+        </div>
+      </div>
     </div>
-    <div class="container">
-      <div class="row chemin">
-        <a href="#">Accueil</a> > <a href="#">Comptabilité</a>
+    <div class="container horaires">
+      <div class="row haut">
+        <div class="twelve columns centered">
+          <h1>Horaires</h1>
+        </div>
       </div>
       <div class="row ligne">
-        <a href="creer.html"><button class="one-third column curved menu-item item1">Créer une commande</button></a>
-        <a href="paiement.html"><button class="one-third column curved menu-item item2">Payer une facture</button></a>
-        <a href="commandes.html"><button class="one-third column curved menu-item item3">Commandes en cours</button></a>
-      </div>
-      <div class="row ligne">
-        <a href="consulterF.html"><button class="one-half column curved menu-item item2">Consulter les factures</button></a>
-        <a href="consulterV.html"><button class="one-half column curved menu-item item3">Consulter les virements</button></a>
+        <a href="liste.html"><button class="one-half column curved menu-item item2">Version Administration</button></a>
+        <a href="saisieEmploye.html"><button class="one-half column curved menu-item item3">Version Employé</button></a>
       </div>
     </div>
   </body>
