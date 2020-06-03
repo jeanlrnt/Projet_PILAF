@@ -9,3 +9,12 @@
 .row {
 	padding-top: 2em;
 }
+
+.civilite {
+	padding-top: 2.4em;
+}
+
+.civilite label{
+	font-size: 1.2em;
+	padding-right: 1em
+}

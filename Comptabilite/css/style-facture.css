@@ -85,3 +85,12 @@ table * {
 .reference {
   width: 4em
 }
+
+.expandable {
+  display: none;
+}
+
+#isexpanded:checked ~ p.expandable, #isexpanded:checked ~ * p.expandable {
+    display: block;
+		width: 100%;
+}
