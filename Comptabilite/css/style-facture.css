@@ -81,3 +81,7 @@ table * {
   color: inherit;
   font-weight: bold;
 }
+
+.reference {
+  width: 4em
+}

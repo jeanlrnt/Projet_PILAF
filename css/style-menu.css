@@ -182,3 +182,7 @@ h6 {
 .hauteur-vide {
   height: 5em
 }
+
+.logofournisseur img {
+  width: auto
+}
