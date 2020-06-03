@@ -160,3 +160,25 @@ h6 {
 .logoimg {
   padding-top: 3px;
 }
+
+.connexion img {
+  height: 15em;
+  margin-top: 2em;
+}
+
+.entreprise {
+  font-size: 6.0rem;
+  color: white;
+  background-color: #5D770B;
+  height: 3em;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.cadre {
+  border: thin solid black
+}
+
+.hauteur-vide {
+  height: 5em
+}
