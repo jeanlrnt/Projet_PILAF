@@ -82,7 +82,7 @@ table * {
   font-weight: bold;
 }
 
-.reference {
+.reference, .numero {
   width: 4em
 }
 
