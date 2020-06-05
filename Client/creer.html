@@ -32,23 +32,24 @@
           <h1>Créer un compte fidélité</h1>
         </div>
       </div>
+      <form action="../index.html">
       <div class="row info">
         <h2>Informations personnelles</h2>
         <div class="five columns civilite">
           <label class="aligne block">Civilité</label>
-          <input type="radio" class=" blockaligne" name="civilite" id="homme">
+          <input type="radio" class=" blockaligne" name="civilite" id="homme" required>
           <label class="block aligne" for="homme">M.</label>
           <input type="radio" class=" blockaligne" name="civilite" id="femme">
           <label class="block aligne" for="femme">Mme.</label>
         </div>
         <div class="five columns">
-          <label>Date de naissance</label><input type="date" name="" value="" class="u-full-width" >
+          <label>Date de naissance</label><input type="date" name="" value="" class="u-full-width" required>
         </div>
         <div class="five columns">
-          <label>Nom</label><input type="text" name="" class="u-full-width" placeholder="Exemple : DROUAL">
+          <label>Nom</label><input type="text" name="" class="u-full-width" placeholder="Exemple : DROUAL" required>
         </div>
         <div class="five columns">
-          <label>Prénom</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : Antoine">
+          <label>Prénom</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : Antoine" required>
         </div>
       </div>
       <div class="row coordonnees">
@@ -57,7 +58,7 @@
           <label>Téléphone fixe</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : 0555000000">
         </div>
         <div class="five columns">
-          <label>Mail</label><input type="email" name="" value="" class="u-full-width" placeholder="Exemple : atzenai87@gmail.com">
+          <label>Mail</label><input type="email" name="" value="" class="u-full-width" placeholder="Exemple : atzenai87@gmail.com" >
         </div>
         <div class="five columns">
           <label>Téléphone portable</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : 0695008600">
@@ -66,27 +67,28 @@
       <div class="row localisation">
         <h2>Localisation</h2>
         <div class="ten columns">
-          <label>Adresse</label><input type="tel" name="" value="" class="u-full-width" placeholder="Exemple : 7 rue Léon Roby">
-          <label>Ville</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : Limoges">
-          <label>Code Postal</label><input type="email" name="" value="" class="u-full-width" placeholder="Exemple : 87000">
-          <label>Pays</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : FRANCE">
+          <label>Adresse</label><input type="tel" name="" value="" class="u-full-width" placeholder="Exemple : 7 rue Léon Roby" required>
+          <label>Ville</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : Limoges" required pattern="[A-Za-z]*">
+          <label>Code Postal</label><input type="email" name="" value="" class="u-full-width" placeholder="Exemple : 87000" required pattern="[0-9]{5}">
+          <label>Pays</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : FRANCE" required pattern="[A-Za-z]*" >
         </div>
       </div>
       <div class="row fidelite">
         <h2>Enregistrer une carte de fidélité</h2>
         <div class="ten columns">
-          <label>Numéro</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : 89393198364690">
+          <label>Numéro</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : 89393198364690" required>
         </div>
         <div class="five columns">
-          <label>Date de souscription</label><input type="date" name="" value="" class="u-full-width" >
+          <label>Date de souscription</label><input type="date" name="" value="" class="u-full-width" required>
         </div>
         <div class="five columns">
-          <label>Code magasin</label><input type="text" name="" value="001" class="u-full-width">
+          <label>Code magasin</label><input type="text" name="" value="001" class="u-full-width" required pattern="[0-9]{3}">
         </div>
       </div>
       <div class="ten columns centered">
-        <a href="../index.html" class="button">Créer</a>
+        <input type="submit" class="button" value="Créer">
       </div>
+    </form>
     </div>
   </body>
 </html>

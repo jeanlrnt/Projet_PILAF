@@ -30,7 +30,7 @@
           <a class="retour" href="index.html"><img src="../images/retour.png" alt="retour"></a>
         </div>
         <div class="ten columns centered">
-          <h1>Creer article</h1>
+          <h1>Créer un produit</h1>
         </div>
       </div>
       <div class="row centre">
@@ -45,6 +45,14 @@
             <div class="five columns">
               <select class="fournisseur u-full-width" name="">
                 <option value="">Choisir un fournisseur</option>
+                <option value="">LES PRES RIENT BIO</option>
+                <option value="">NATURDIS</option>
+                <option value="">BONNETERRE</option>
+                <option value="">PRONADIS</option>
+                <option value="">RELAIS VERT</option>
+                <option value="">PUR ALIMENT</option>
+                <option value="">PROBABIO</option>
+                <option value="">VITAFRAIS</option>
               </select>
             </div>
           </div>
@@ -59,6 +67,7 @@
             </div>
           </div>
         </div>
+        <form action="index.html">
         <div class="row centre">
           <h5 class="centered titre">Nouvel article</h5>
           <div class="row centre">
@@ -66,7 +75,7 @@
               <h5>Marque commerciale</h5>
             </div>
             <div class="five columns">
-              <input type="text" class="u-full-width" placeholder=" Exemple : LES 2 VACHES">
+              <input type="text" class="u-full-width" placeholder=" Exemple : LES 2 VACHES" required>
             </div>
           </div>
           <div class="row centre">
@@ -74,7 +83,7 @@
               <h5>Designation</h5>
             </div>
             <div class="five columns">
-              <input type="text" class="u-full-width" placeholder=" Exemple : DESSERT BIO AU CHOCOLAT">
+              <input type="text" class="u-full-width" placeholder=" Exemple : DESSERT BIO AU CHOCOLAT" required>
             </div>
           </div>
           <div class="row centre">
@@ -82,7 +91,7 @@
               <h5>EAN</h5>
             </div>
             <div class="five columns">
-              <input type="text" class="u-full-width" placeholder=" Exemple : 5423187496307">
+              <input type="text" class="u-full-width" placeholder=" Exemple : 5423187496307" pattern="[0-9]{8}||[0-9]{13}" required>
             </div>
           </div>
           <div class="row centre">
@@ -90,7 +99,7 @@
               <h5>Prix fournisseur HT</h5>
             </div>
             <div class="two columns">
-              <input type="text" class="u-full-width" placeholder=" Exemple : 1.30 ">
+              <input type="text" class="u-full-width" placeholder=" Ex : 1.30 " required>
             </div>
             <h5>€</h5>
           </div>
@@ -99,16 +108,16 @@
               <h5>Prix de vente HT</h5>
             </div>
             <div class="two columns">
-              <input type="text" class="u-full-width" placeholder=" Exemple : 1.99" value="1.99">
+              <input type="text" class="u-full-width" placeholder=" Ex : 1.99" value="1.99" required>
             </div>
-            <h5>€ soit 1.49€ après réduction</h5>
+            <h5>€ </h5>
           </div>
           <div class="row centre">
             <div class="offset-by-one four columns">
               <h5>Remise en %</h5>
             </div>
             <div class="two columns">
-              <input type="text" class="u-full-width" placeholder=" Exemple : 1.99" value="25">
+              <input type="text" class="u-full-width" placeholder=" Ex: 25" >
             </div>
             <h5>%</h5>
           </div>
@@ -119,17 +128,17 @@
             <div class="five columns">
               <select class="u-full-width" name="">
                 <option value="">Choisir une option de la liste</option>
-                <option value="">Fruits & Légumes</option>
-                <option value="">Poisson</option>
                 <option value="">Boulangerie</option>
                 <option value="">Cave</option>
-                <option value="">Epicerie Sucrée</option>
-                <option value="">Epicerie Salée</option>
-                <option value="">Viande</option>
-                <option value="">Produits Laitiers</option>
-                <option value="">Hygiène</option>
-                <option value="">Textile</option>
                 <option value="">Cosmétique</option>
+                <option value="">Crémerie</option>
+                <option value="">Epicerie Salée</option>
+                <option value="">Epicerie Sucrée</option>
+                <option value="">Fruits & Légumes</option>
+                <option value="">Hygiène</option>
+                <option value="">Poisson</option>
+                <option value="">Textile</option>    
+                <option value="">Viande</option>
               </select>
             </div>
           </div>
@@ -153,10 +162,10 @@
           </div>
           <div class="row centre">
             <div class="offset-by-one four columns">
-              <h5>Poids unitaire</h5>
+              <h5>Poids unitaire  (g)</h5>
             </div>
             <div class="two columns">
-              <input type="text" class="u-full-width">
+              <input type="text" class="u-full-width" placeholder="Ex : 543" >
             </div>
           </div>
           <div class="row centre">
@@ -168,10 +177,12 @@
             </div>
           </div>
           <div class="row centered">
-            <a href="#" class="button">Créer</a>
+            <input type="submit" class="button" value="Créer">
+            
           </div>
         </div>
       </div>
+    </form>
     </div>
   </body>
 </html>

@@ -30,7 +30,7 @@
           <a class="retour" href="index.html"><img src="../images/retour.png" alt="retour"></a>
         </div>
         <div class="ten columns centered">
-          <h1>Afficher article</h1>
+          <h1>Afficher un produit</h1>
         </div>
         <div class="one columns">
             <a class="edit" title="modifier" href="./modifier.html"><img src="../images/edit.png" alt="edit"></a>
@@ -83,16 +83,64 @@
             <h5>Prix de vente HT</h5>
           </div>
           <div class="two columns">
-            <input type="text" class="u-full-width" value="1.99" readonly>
+            <input type="text" class="u-full-width" placeholder=" Exemple : 1.99" value="1.99" readonly>
           </div>
-          <h5>€</h5>
+          <h5>€ soit 1.49€ après réduction</h5>
+        </div>
+        <div class="row centre">
+          <div class="offset-by-one four columns">
+            <h5>Remise en %</h5>
+          </div>
+          <div class="two columns">
+            <input type="text" class="u-full-width" placeholder=" Exemple : 1.99" value="25" readonly >
+          </div>
+          <h5>%</h5>
+        </div>
+        <div class="row centre">
+          <div class="offset-by-one four columns">
+            <h5>Catégorie</h5>
+          </div>
+          <div class="five columns">
+            <select class="u-full-width" name="">
+              <option disabled>Choisir une option de la liste</option>
+              <option disabled>Boulangerie</option>
+              <option disabled>Cave</option>
+              <option disabled>Cosmétique</option>
+              <option selected="selected">Crémerie</option>
+              <option disabled>Epicerie Salée</option>
+              <option disabled>Epicerie Sucrée</option>
+              <option disabled>Fruits & Légumes</option>
+              <option disabled>Hygiène</option>
+              <option disabled>Poisson</option>
+              <option disabled>Textile</option>    
+              <option disabled>Viande</option>
+            </select>
+          </div>
         </div>
         <div class="row centre">
           <div class="offset-by-one four columns">
             <h5>Conditionnement</h5>
           </div>
-          <div class="five columns">
-            <input type="text" class="u-full-width" value="4x125g" readonly>
+          <div class="four columns">
+            <select class="" name="" > 
+              <option disabled >Choisir un conditionnement</option>
+              <option disabled >Unitaire</option>
+              <option selected="selected">Lot</option>
+              <option disabled >Boîte</option>
+              <option disabled >Carton</option>
+            </select>
+          </div>
+          <h5 class="block"> de </h5>
+          <div class="block">
+            <input type="text" class="quantite" value="4" readonly>
+          </div>
+        </div>
+        <div class="row centre">
+          <div class="offset-by-one four columns">
+            <h5>Poids unitaire (g)</h5>
+          </div>
+          <div class="two columns">
+            <input type="text" class="u-full-width" value="115" readonly>
           </div>
         </div>
         <div class="row centre">
@@ -102,6 +150,7 @@
           <div class="two columns">
             <input type="text" class="u-full-width" value="26" readonly>
           </div>
+        </div>
         </div>
       </div>
     </div>
