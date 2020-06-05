@@ -42,59 +42,62 @@
             <p class="txtLogo">Logo</p>
           </label>
         </div>
+        <form action="../index.html">
         <div class="one-half column labels">
-          <label>Nom</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : LES PRES RIENT BIO">
-          <label>Site Web</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : www.les2vaches.com">
+          <label>Nom</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : LES PRES RIENT BIO" required>
+          <label>Site Web</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : www.les2vaches.com" required>
         </div>
       </div>
       <div class="row coordonnees">
         <h2>Coordonnées</h2>
         <div class="five columns">
-          <label>Téléphone</label><input class="u-full-width" type="tel" name="" value="" placeholder="Exemple : 0149485293">
-          <label>Mail</label><input class="u-full-width" type="email" name="" value="" placeholder="Exemple : contact@les2vaches.com">
+          <label>Téléphone</label><input class="u-full-width" type="tel" name="" value="" placeholder="Exemple : 0149485293" required pattern="[0-9]{10}">
+          <label>Mail</label><input class="u-full-width" type="email" name="" value="" placeholder="Exemple : contact@les2vaches.com" required >
         </div>
         <div class="five columns">
-          <label>Fax</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : 0149485293">
-          <label>N°SIREN</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : 489872903">
+          <label>Fax</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : 0149485293" required pattern="[0-9]{10}">
+          <label>N°SIREN</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : 489872903" required pattern="[0-9]{9}">
         </div>
       </div>
       <div class="row localisation">
         <h2>Localisation</h2>
         <div class="ten columns">
-          <label>Adresse</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : 150 Boulevard Victor Hugo">
-          <label>Ville</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : SAINT-OUEN">
-          <label>Code Postal</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : 93400">
-          <label>Pays</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : FRANCE">
+          <label>Adresse</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : 150 Boulevard Victor Hugo" required>
+          <label>Ville</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : SAINT-OUEN" required pattern="[A-Za-z]*">
+          <label>Code Postal</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : 93400" required pattern="[0-9]{5}">
+          <label>Pays</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : FRANCE" required pattern="[A-Za-z]*">
         </div>
       </div>
       <div class="row contact">
         <h2>Contact interne</h2>
         <div class="five columns">
-          <label>Nom</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : PAUL">
+          <label>Nom</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : PAUL" pattern="[A-Za-z]*">
         </div>
         <div class="five columns">
-          <label>Prénom</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : François">
+          <label>Prénom</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : François" pattern="[A-Za-z]*">
         </div>
         <div class="ten columns">
-          <label>Fonction</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : Commercial Danone">
+          <label>Fonction</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : Commercial Danone" pattern="[A-Za-z]*">
         </div>
       </div>
       <div class="row banque">
         <h2>Banque</h2>
         <div class="ten columns">
-          <label>Titulaire du compte</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : LES PRES RIENT BIO">
-          <label>Nom de la Banque</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : LCL">
-          <label>IBAN</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : FR46 1234 5678 9123 4567 8912 789">
-          <label>BIC</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : 1024 01 87">
+          <label>Titulaire du compte</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : LES PRES RIENT BIO" required pattern="[A-Za-z]*">
+          <label>Nom de la Banque</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : LCL" required pattern="[A-Za-z]*">
+          <label>IBAN</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : FR46 1234 5678 9123 4567 8912 789" required pattern="[A-Z]{2}[0-9]{25}">
+          <label>BIC</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : 1024 01 87" required pattern="[0-9]{8}">
         </div>
       </div>
       <div class="row commentaires">
         <h2>Commentaires</h2>
         <div class="ten columns">
           <textarea name="text" class="u-full-width"></textarea>
-         <a href="index.html"><input class="button" type="submit" value="Créer" ></a> 
+          <input type="submit" value="Creer" href="index.html">
+         <!--<a href="index.html"><input class="button" type="submit" value="Créer" ></a> -->
         </div>
       </div>
     </div>
+  </form>
   </body>
 </html>
