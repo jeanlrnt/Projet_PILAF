@@ -22,7 +22,7 @@
 	width: 150px;
 	height: 200px;
 	margin-bottom: 20px;
-	margin-right: 10px;
+	margin-right: 30px;
 }
 .line1 {
 	margin-top: 99px;
@@ -60,6 +60,7 @@ input[type=file] {
 
 .haut .labels {
 	margin-top: 2em;
+	margin-left: 0
 }
 
 .commentaires .ten {
