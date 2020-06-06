@@ -25,70 +25,72 @@
     <div class="container infos">
       <div class="row">
         <div class="two columns">
-          <a class="retour" href="liste.html"><img src="../images/retour.png" alt="retour"></a>
+          <a class="retour" href="info.html"><img src="../images/retour.png" alt="retour"></a>
         </div>
         <div class="eight columns centered">
           <h1>Informations employé</h1>
         </div>
-        <div class="one columns">
-          <a class="edit" title="modifier" href="./modifier.html"><img src="../images/edit.png" alt="edit"></a>
-        </div>
       </div>
+      <form action="infoMelet.html" method="POST">
       <div class="container">
         <div class="row">
           <div class="six columns">
             <label>Nom</label>
-            <input class="u-full-width" type="text" name="" value="BILLET" readonly>
+            <input class="u-full-width" type="text" name="" value="MELET" required>
           </div>
           <div class="six columns">
             <label>Prénom</label>
-            <input class="u-full-width" type="text" name="" value="Patrick" readonly>
+            <input class="u-full-width" type="text" name="" value="Edouard" required>
           </div>
         </div>
         <div class="row">
           <div class="six columns">
             <label>Poste</label>
-            <input class="u-full-width" type="text" name="" value="Cadre commercial" readonly>
+            <input class="u-full-width" type="text" name="" value="Gestionnaire" required>
           </div>
           <div class="six columns">
             <label>N° de téléphone</label>
-            <input class="u-full-width" type="text" name="" value="0764958732" readonly>
+            <input class="u-full-width" type="text" name="" value="0764487952" required pattern="[0-9]{10}">
           </div>
         </div>
         <div class="row">
           <div class="six columns">
             <label>Date de naissance</label>
-            <input class="u-full-width" type="date" name="" value="1978-02-28" readonly>
+            <input class="u-full-width" type="date" name="" value="1986-06-24" required>
           </div>
           <div class="six columns">
             <label>Début de contrat</label>
-            <input class="u-full-width" type="date" name="" value="2014-06-24" readonly>
+            <input class="u-full-width" type="date" name="" value="2016-06-24" required>
           </div>
         </div>
         <div class="row localisation">
           <h4></h4>
           <div class="twelve columns">
-            <label>Adresse</label><input class="u-full-width" type="text" name="" readonly value="78 rue des Bleuets">
-            <label>Ville</label><input class="u-full-width" type="text" name="" readonly value="LIMOGES">
-            <label>Code Postal</label><input class="u-full-width" type="text" name="" readonly value="87000">
-            <label>Pays</label><input class="u-full-width" type="text" name="" readonly value="FRANCE">
+            <label>Adresse</label><input class="u-full-width" type="text" name="" value="156 Avenue Richard Paul" required>
+            <label>Ville</label><input class="u-full-width" type="text" name="" value="LIMOGES" required>
+            <label>Code Postal</label><input class="u-full-width" type="text" name="" value="87000" required pattern="[0-9]{5}">
+            <label>Pays</label><input class="u-full-width" type="text" name="" value="FRANCE" required>
           </div>
         </div>
         <div class="row">
           <h4></h4>
           <div class="twelve columns">
             <label>IBAN</label>
-            <input class="u-full-width" type="text" name="" readonly value="FR4612345678912345678912789">
+            <input class="u-full-width" type="text" name="" value="FR4612345678912345678912789" required pattern="[A-Z]{2}[0-9]{25}">
             <label>BIC</label>
-            <input class="u-full-width" type="text" name="" readonly value="10240187">
+            <input class="u-full-width" type="text" name="" value="10240187"  required pattern="[0-9]{8}">
           </div>
         </div>
         <div class="row">
           <h4></h4>
           <label>Informations complémentaires</label>
-          <textarea name="name" rows="8" class="u-full-width" readonly></textarea>
+          <textarea name="name" rows="8" class="u-full-width"></textarea>
+        </div>
+        <div class="centered">
+            <input type="submit" class="button" value="Valider les modifications">
         </div>
       </div>
+    </form>
     </div>
   </body>
 </html>

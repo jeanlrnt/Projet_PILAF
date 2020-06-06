@@ -31,53 +31,54 @@
           <h1>Informations employé</h1>
         </div>
       </div>
+      <form action="info.html" method="POST">
       <div class="container">
         <div class="row">
           <div class="six columns">
             <label>Nom</label>
-            <input class="u-full-width" type="text" name="" value="BILLET">
+            <input class="u-full-width" type="text" name="" value="BILLET" required>
           </div>
           <div class="six columns">
             <label>Prénom</label>
-            <input class="u-full-width" type="text" name="" value="Patrick">
+            <input class="u-full-width" type="text" name="" value="Patrick" required>
           </div>
         </div>
         <div class="row">
           <div class="six columns">
             <label>Poste</label>
-            <input class="u-full-width" type="text" name="" value="Cadre commercial">
+            <input class="u-full-width" type="text" name="" value="Cadre commercial" required>
           </div>
           <div class="six columns">
             <label>N° de téléphone</label>
-            <input class="u-full-width" type="text" name="" value="0764958732">
+            <input class="u-full-width" type="text" name="" value="0764958732" required pattern="[0-9]{10}">
           </div>
         </div>
         <div class="row">
           <div class="six columns">
             <label>Date de naissance</label>
-            <input class="u-full-width" type="date" name="" value="1978-02-28">
+            <input class="u-full-width" type="date" name="" value="1978-02-28" required>
           </div>
           <div class="six columns">
             <label>Début de contrat</label>
-            <input class="u-full-width" type="date" name="" value="2014-06-24">
+            <input class="u-full-width" type="date" name="" value="2014-06-24" required>
           </div>
         </div>
         <div class="row localisation">
           <h4></h4>
           <div class="twelve columns">
-            <label>Adresse</label><input class="u-full-width" type="text" name="" value="78 rue Olivier de Serres">
-            <label>Ville</label><input class="u-full-width" type="text" name="" value="Paris">
-            <label>Code Postal</label><input class="u-full-width" type="text" name="" value="75015">
-            <label>Pays</label><input class="u-full-width" type="text" name="" value="FRANCE">
+            <label>Adresse</label><input class="u-full-width" type="text" name="" value="78 rue des Bleuets" required>
+            <label>Ville</label><input class="u-full-width" type="text" name="" value="LIMOGES" required>
+            <label>Code Postal</label><input class="u-full-width" type="text" name="" value="87000" required pattern="[0-9]{5}">
+            <label>Pays</label><input class="u-full-width" type="text" name="" value="FRANCE" required>
           </div>
         </div>
         <div class="row">
           <h4></h4>
           <div class="twelve columns">
             <label>IBAN</label>
-            <input class="u-full-width" type="text" name="" value="FR46 1234 5678 9123 4567 8912 789">
+            <input class="u-full-width" type="text" name="" value="FR4612345678912345678912789" required pattern="[A-Z]{2}[0-9]{25}">
             <label>BIC</label>
-            <input class="u-full-width" type="text" name="" value="1024 01 87">
+            <input class="u-full-width" type="text" name="" value="10240187" required pattern="[0-9]{8}">
           </div>
         </div>
         <div class="row">
@@ -86,9 +87,10 @@
           <textarea name="name" rows="8" class="u-full-width"></textarea>
         </div>
         <div class="centered">
-          <a href="info.html" class="button">Valider les modifications</a>
+          <input type="submit" class="button" value="Valider les modifications">
         </div>
       </div>
+    </form>
     </div>
   </body>
 </html>
