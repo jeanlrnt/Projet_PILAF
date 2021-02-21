@@ -15,6 +15,10 @@ Nous lui avons donc proposé une solution web (non fonctionnelle) avec des donn�
 - Gestion des clients
 - Statistiques de l'entreprise en temps réel
 
+![home](https://github.com/jeanlrnt/Projet_PILAF/blob/master/connexion.png)
+![menu](https://github.com/jeanlrnt/Projet_PILAF/blob/master/accueil.png)
+![produits](https://github.com/jeanlrnt/Projet_PILAF/blob/master/produits.png)
 
-Réalisé grâce à l'aide de [Valentin ROUGIER](https://github.com/valentinrougier39) et de [Antoine DROUAL](https://github.com/Anmaceis)  
+
+Réalisé grâce à l'aide de [Thomas MARTY](https://github.com/Coto-Hub), [Valentin ROUGIER](https://github.com/valentinrougier39) et de [Antoine DROUAL](https://github.com/Anmaceis)  
 Ce projet est disponible à l'adresse : [jeanlrnt.github.io/Projet_PILAF](https://jeanlrnt.github.io/Projet_PILAF)
